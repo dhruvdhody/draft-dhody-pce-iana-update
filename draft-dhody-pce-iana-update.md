@@ -31,6 +31,7 @@ consensus: true
 v: 3
 area: Routing
 workgroup: PCE Working Group
+updates: 8231, 8233, 8281, 8623, 8664, 8685, 8697, 8745, 8733, 8779, 8780, 8800, 8934, 9050, 9059, 9168, 9357, 9504
 
 author:
  -
