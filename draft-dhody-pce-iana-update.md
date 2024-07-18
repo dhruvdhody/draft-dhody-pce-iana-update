@@ -68,14 +68,14 @@ informative:
 
 --- abstract
 
-This document updates the registration procedure within the IANA "Path Computation Element Protocol (PCEP) Numbers" group of registries. This specification changes some of the registries with Standards Action to IETF Review as defined in RFC 8126.  This document updates RFCs 8231, 8233, 8281, 8623, 8664, 8685, 8697, 8733, 8745, 8779, 8780, 8800, 8934, 9050, 9059, 9168, 9357, and 9504.
+This document updates the registration procedure within the IANA "Path Computation Element Protocol (PCEP) Numbers" group of registries. This specification changes some of the registries with Standards Action to IETF Review as defined in RFC 8126.  This memo updates RFCs 8231, 8233, 8281, 8623, 8664, 8685, 8697, 8733, 8745, 8779, 8780, 8800, 8934, 9050, 9059, 9168, 9357, and 9504.
 
 
 --- middle
 
 # Introduction
 
-The IANA "Path Computation Element Protocol (PCEP) Numbers" registry was populated by several RFCs produced by the Path Computation Element (PCE) working group. Most of the registries include the "IETF Review" {{RFC8126}} as registration procedures. There are a few registries that use "Standards Action". Thus the values in those registries can be assigned only through Standards Track or Best Current Practice RFCs in the IETF Stream. This specification changes the policy from Standards Action to IETF Review to allow any type of RFC under the IETF stream to make the allocation request.
+The IANA "Path Computation Element Protocol (PCEP) Numbers" registry was populated by several RFCs produced by the Path Computation Element (PCE) working group. Most of the registries include the "IETF Review" {{RFC8126}} as registration procedures. There are a few registries that use "Standards Action". Thus the values in those registries can be assigned only through Standards Track or Best Current Practice RFCs in the IETF Stream. This memo changes the policy from Standards Action to IETF Review to allow any type of RFC under the IETF stream to make the allocation request.
 
 # PCEP Registries Affected
 
@@ -121,7 +121,7 @@ The following table lists the "Path Computation Element Protocol (PCEP) Numbers"
 ~~~
 Question to the WG: The current document updates all
 the registries. Should we keep "Standards Action" for
-some of them such as flag fields with limited flags?
+some of them such as flag fields with limited bits?
 ~~~
 
 # Security Considerations
