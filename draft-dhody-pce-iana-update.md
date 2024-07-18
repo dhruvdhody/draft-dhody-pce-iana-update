@@ -5,6 +5,7 @@
 # Rename this file from draft-todo-yourname-protocol.md to get started.
 # Draft name format is "draft-<yourname>-<workgroup>-<name>.md".
 #
+#
 # For initial setup, you only need to edit the first block of fields.
 # Only "title" needs to be changed; delete "abbrev" if your title is short.
 # Any other content can be edited, but be careful not to introduce errors.
