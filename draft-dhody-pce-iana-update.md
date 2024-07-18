@@ -41,27 +41,27 @@ author:
   email: dhruv.ietf@gmail.com
 
 normative:
-RFC8126:
-RFC8231:
-RFC8233:
-RFC8281:
-RFC8623:
-RFC8664:
-RFC8685:
-RFC8697:
-RFC8733:
-RFC8745:
-RFC8779:
-RFC8780:
-RFC8800:
-RFC8934:
-RFC9050:
-RFC9059:
-RFC9168:
-RFC9357:
-RFC9504:
-I-D.ietf-pce-binding-label-sid:
-I-D.ietf-pce-segment-routing-ipv6:
+  RFC8126:
+  RFC8231:
+  RFC8233:
+  RFC8281:
+  RFC8623:
+  RFC8664:
+  RFC8685:
+  RFC8697:
+  RFC8733:
+  RFC8745:
+  RFC8779:
+  RFC8780:
+  RFC8800:
+  RFC8934:
+  RFC9050:
+  RFC9059:
+  RFC9168:
+  RFC9357:
+  RFC9504:
+  I-D.ietf-pce-binding-label-sid:
+  I-D.ietf-pce-segment-routing-ipv6:
 informative:
 
 
