@@ -55,7 +55,7 @@ This document updates the registration procedure within the IANA "Path Computati
 
 # Introduction
 
-The IANA "Path Computation Element Protocol (PCEP) Numbers" registry was populated by several RFCs produced by the Path Computation Element (PCE) working group. Most of the registries include the "IETF Review" {{RFC8126}} as registration procedures. There are a few registries that use "Standards Action". Thus the values in those registries can be assigned only through Standards Track or Best Current Practice RFCs in the IETF Stream. This memo changes the policy from Standards Action to IETF Review to allow any type of RFC under the IETF stream to make the allocation request.
+The IANA "Path Computation Element Protocol (PCEP) Numbers" registry group was populated by several RFCs produced by the Path Computation Element (PCE) working group. Most of the registries include the "IETF Review" {{RFC8126}} as registration procedures. There are a few registries that use "Standards Action". Thus the values in those registries can be assigned only through Standards Track or Best Current Practice RFCs in the IETF Stream. This memo changes the policy from Standards Action to IETF Review to allow any type of RFC under the IETF stream to make the allocation request.
 
 # PCEP Registries Affected
 
@@ -102,6 +102,12 @@ The following table lists the "Path Computation Element Protocol (PCEP) Numbers"
 Question to the WG: The current document updates all
 the registries. Should we keep "Standards Action" for
 some of them such as flag fields with limited bits?
+
+Rationale: There are some registries where the space
+is tight but the IETF-review is fine -- our WG and
+LC process should be enough to handle the case of fewer
+bits which ideally require creating a new field/registry
+as we did in the past.
 ~~~
 
 # Security Considerations
