@@ -4,12 +4,12 @@
 
 Path Computation Element                                        D. Dhody
 Internet-Draft                                                    Huawei
-Updates: 8231, 8233, 8281, 8623, 8664, 8685,                22 July 2024
+Updates: 8231, 8233, 8281, 8623, 8664, 8685,                24 July 2024
          8697, 8745, 8733, 8779, 8780, 8800,                            
          8934, 9050, 9059, 9168, 9357, 9504 (if                         
          approved)                                                      
 Intended status: Standards Track                                        
-Expires: 23 January 2025
+Expires: 25 January 2025
 
 
             Update to the IANA PCEP Registration Procedures
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 January 2025.
+   This Internet-Draft will expire on 25 January 2025.
 
 Copyright Notice
 
@@ -79,7 +79,7 @@ Table of Contents
 1.  Introduction
 
    The IANA "Path Computation Element Protocol (PCEP) Numbers" registry
-   was populated by several RFCs produced by the Path Computation
+   group was populated by several RFCs produced by the Path Computation
    Element (PCE) working group.  Most of the registries include the
    "IETF Review" [RFC8126] as registration procedures.  There are a few
    registries that use "Standards Action".  Thus the values in those
@@ -225,6 +225,12 @@ Table of Contents
    Question to the WG: The current document updates all
    the registries. Should we keep "Standards Action" for
    some of them such as flag fields with limited bits?
+
+   Rationale: There are some registries where the space
+   is tight but the IETF-review is fine -- our WG and
+   LC process should be enough to handle the case of fewer
+   bits which ideally require creating a new field/registry
+   as we did in the past.
 
 3.  Security Considerations
 
