@@ -11,7 +11,7 @@ consensus: true
 v: 3
 area: "Routing"
 workgroup: "Path Computation Element"
-updates: 8231, 8233, 8281, 8623, 8664, 8685, 8697, 8745, 8733, 8779, 8780, 8800, 8934, 9050, 9059, 9168, 9357, 9504
+updates: 8231, 8233, 8281, 8623, 8664, 8685, 8697, 8745, 8733, 8779, 8780, 8800, 8934, 9050, 9059, 9168, 9357, 9504, 9603
 
 author:
  -
@@ -41,14 +41,14 @@ normative:
   RFC9168:
   RFC9357:
   RFC9504:
+  RFC9603:
   I-D.ietf-pce-binding-label-sid:
-  I-D.ietf-pce-segment-routing-ipv6:
 informative:
 
 
 --- abstract
 
-This document updates the registration procedure within the IANA "Path Computation Element Protocol (PCEP) Numbers" group of registries. This specification changes some of the registries with Standards Action to IETF Review as defined in RFC 8126.  This memo updates RFCs 8231, 8233, 8281, 8623, 8664, 8685, 8697, 8733, 8745, 8779, 8780, 8800, 8934, 9050, 9059, 9168, 9357, and 9504.
+This document updates the registration procedure within the IANA "Path Computation Element Protocol (PCEP) Numbers" group of registries. This specification changes some of the registries with Standards Action to IETF Review as defined in RFC 8126.  This memo updates RFCs 8231, 8233, 8281, 8623, 8664, 8685, 8697, 8733, 8745, 8779, 8780, 8800, 8934, 9050, 9059, 9168, 9357, 9504, and 9603.
 
 
 --- middle
@@ -72,7 +72,7 @@ The following table lists the "Path Computation Element Protocol (PCEP) Numbers"
 | PATH-SETUP-TYPE-CAPABILITY Sub-TLV Type Indicators | {{RFC8664}} | |
 | SR Capability Flag Field | {{RFC8664}} | |
 | WA Object Flag Field | {{RFC8780}} | |
-| Wavelength Restriction Constraint TLV Action Values | {{RFC8780}} | |
+| Wavelength Restriction TLV Action Values | {{RFC8780}} | |
 | Wavelength Allocation TLV Flag Field | {{RFC8780}} | |
 | S2LS Object Flag Field | {{RFC8623}} | |
 | H-PCE-CAPABILITY TLV Flag Field | {{RFC8685}} | |
@@ -94,8 +94,8 @@ The following table lists the "Path Computation Element Protocol (PCEP) Numbers"
 | TE-PATH-BINDING TLV Flag Field | {{I-D.ietf-pce-binding-label-sid}} | |
 | LSP-EXTENDED-FLAG TLV Flag Field | {{RFC9357}} | |
 | LSP Exclusion Subobject Flag Field | {{RFC9504}} | |
-| SRv6-ERO Flag Field | {{I-D.ietf-pce-segment-routing-ipv6}} | |
-| SRv6 Capability Flag Field | {{I-D.ietf-pce-segment-routing-ipv6}} | |
+| SRv6-ERO Flag Field | {{RFC9603}} | |
+| SRv6 Capability Flag Field | {{RFC9603}} | |
 {: title="PCEP Registries Affected"}
 
 ~~~
